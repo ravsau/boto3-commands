@@ -3,7 +3,7 @@
 ** this script was tested with python 2
 
 
-### Way 1 using executable file 
+### Way 1: using executable file 
 1) Change the permission of the file to make it executable
 ```console
 chmod +x clone-ec2.py
@@ -15,8 +15,8 @@ chmod +x clone-ec2.py
 ```
 
 
-### Way 2 using python command 
-2) Call the script using python and pass in an instance id
+### Way 2: using python command 
+1) Call the script using python and pass in an instance id
 
 ```console
 python clone-ec2.py i-001122abcdef
